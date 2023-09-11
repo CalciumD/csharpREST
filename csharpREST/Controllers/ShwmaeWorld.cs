@@ -14,7 +14,7 @@ namespace csharpREST.Controllers
         // CONSTRUCTOR 
         public ShwmaeWorld(String fname)
         {
-            fname = "Dale";
+            fname = this.fname;
             //_users = new List<User>()
             //{
             //    new User() { Id =  1, Name = "Bob"},
