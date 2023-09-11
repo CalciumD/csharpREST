@@ -20,6 +20,7 @@ namespace csharpREST.Controllers
                 new User() { Id =  1, Name = "Bob"},
                 new User() { Id = 2, Name = "John"},
                 new User() { Id = 3, Name = "Derek"}
+                new User() { Id = 4, Name = "Johnny"}
             };
         }
 
