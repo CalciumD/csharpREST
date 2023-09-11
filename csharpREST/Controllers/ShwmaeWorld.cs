@@ -10,6 +10,7 @@ namespace csharpREST.Controllers
         
         private readonly List<User> _users;
 
+        // CONSTRUCTOR 
         public ShwmaeWorld()
         {
             _users = new List<User>()
