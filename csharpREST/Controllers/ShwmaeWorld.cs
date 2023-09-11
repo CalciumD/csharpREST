@@ -9,16 +9,18 @@ namespace csharpREST.Controllers
     {
         
         private readonly List<User> _users;
-
+        private String fname;
+        
         // CONSTRUCTOR 
-        public ShwmaeWorld()
+        public ShwmaeWorld(String fname)
         {
-            _users = new List<User>()
-            {
-                new User() { Id =  1, Name = "Bob"},
-                new User() { Id = 2, Name = "John"},
-                new User() { Id = 3, Name = "Derek"}
-            };
+            fname = "Dale";
+            //_users = new List<User>()
+            //{
+            //    new User() { Id =  1, Name = "Bob"},
+            //    new User() { Id = 2, Name = "John"},
+            //    new User() { Id = 3, Name = "Derek"}
+            //};
         }
 
         [HttpGet]
